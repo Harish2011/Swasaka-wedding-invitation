@@ -61,6 +61,14 @@
   -webkit-animation: pulse 1s ease infinite;
   animation: pulse 1s ease infinite;
  }
+ .heart-red-menu {
+  fill: #d61313;
+  position: relative;
+  top: 2px;
+  width: 25px;
+  -webkit-animation: pulse 1s ease infinite;
+  animation: pulse 1s ease infinite;
+ }
  .heart {
   fill: #FFF;
   position: relative;
@@ -289,7 +297,7 @@
 
 .brand {
   font-family: "Oswald", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
 }
 
@@ -382,6 +390,7 @@
 
 .nav__item a span {
   font-size: 1rem;
+  padding-left: 10px;
   font-weight: 600;
 }
 
