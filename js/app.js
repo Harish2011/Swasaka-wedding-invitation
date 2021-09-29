@@ -39,9 +39,22 @@ overlay.addEventListener('click', () => {
 
 // Testimony toggler
 
-const parents = document.getElementById('parents');
-const students = document.getElementById('parents');
-const clients = document.getElementById('clients');
+const groom = document.getElementById('groom');
+const bride = document.getElementById('bride');
+
+bride.addEventListener('click', () => {
+    document.getElementById("bridepics").style.display="";
+    document.getElementById("groompics").style.display="none";
+    groom.className="tabbar__item";
+    bride.className="tabbar__item tabbar__item--current";
+
+});
+groom.addEventListener('click', () => {
+    document.getElementById("groompics").style.display=""
+    document.getElementById("bridepics").style.display="none"
+    bride.className="tabbar__item";
+    groom.className="tabbar__item tabbar__item--current";
+});
 
 // Service Worker for PWA
 
