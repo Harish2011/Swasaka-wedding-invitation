@@ -63,3 +63,9 @@ groom.addEventListener('click', () => {
 //         navigator.serviceWorker.register('/techinnovators/sw.js')
 //     });
 // }
+
+var x = document.getElementById("myAudio"); 
+
+function heartsound() { 
+  x.play(); 
+}
